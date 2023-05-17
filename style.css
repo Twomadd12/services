@@ -1,0 +1,141 @@
+@font-face {
+  font-family: "TTLakesBold";
+  src: url("/fonts/TTLakesBold/TTLakesBold.eot");
+  src: url("/fonts/TTLakesBold/TTLakesBold.eot?#iefix")
+      format("embedded-opentype"),
+    url("/fonts/TTLakesBold/TTLakesBold.woff") format("woff"),
+    url("/fonts/TTLakes-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 700;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  box-sizing: border-box;
+}
+.header {
+  max-width: 100%;
+  height: 56px;
+}
+.header__text {
+  padding: 16px 406px 16px 24px;
+  font-family: "TTLakesBold";
+  font-size: 16px;
+  line-height: 24px;
+  line-height: 24px;
+  color: #7e7e82;
+  white-space: nowrap;
+}
+.section {
+  display: flex;
+  flex-direction: column;
+  background-color: #f2f2f2;
+}
+.content {
+  display: flex;
+  padding-top: 16px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+.content:first-child {
+  padding-top: 24px;
+}
+.brand {
+  width: 245px;
+  height: 72px;
+  border: 1px solid #eaeaea;
+  border-radius: 6px;
+  display: flex;
+  background-color: white;
+  margin-left: 24px;
+}
+.brand:first-child {
+  margin-left: 0px;
+}
+
+.brand__arrow {
+  padding: 16px 16px 16px 44px;
+}
+.brand__name-lenovo {
+  padding-top: 19px;
+  padding-left: 25px;
+}
+.brand__arrow-lenovo {
+  padding-top: 16px;
+  padding-left: 57px;
+}
+.brand__name-samsung {
+  padding-top: 17px;
+  padding-bottom: 16.48px;
+  padding-left: 24px;
+}
+.brand__arrow-samsung {
+  padding-left: 51px;
+  padding-top: 16px;
+}
+.brand__name-apple {
+  padding-top: 12px;
+  padding-left: 24px;
+}
+.brand__arrow-apple {
+  padding-left: 124px;
+  padding-top: 16px;
+}
+.brand__name-bosch {
+  padding-top: 19px;
+  padding-left: 22px;
+}
+.brand__arrow-bosch {
+  padding-left: 40px;
+  padding-top: 14px;
+}
+.brand__name-hp {
+  padding-top: 8px;
+  padding-left: 17px;
+}
+.brand__arrow-hp {
+  padding-left: 122px;
+  padding-top: 14px;
+}
+.brand__name-acer {
+  padding-top: 22px;
+  padding-left: 24px;
+}
+.brand__arrow-acer {
+  padding-left: 74px;
+  padding-top: 14px;
+}
+.showAll {
+  position: relative;
+
+  padding-left: 34px;
+  padding-top: 12px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  background-color: #f2f2f2;
+}
+.showAll button {
+  font-family: "TTLakesBold";
+  font-size: 15px;
+  line-height: 24px;
+  color: #1b1c21;
+  position: absolute;
+  top: 18px;
+  left: 60px;
+  border: none;
+   
+  
+}
+button img{
+    position: absolute;
+    top: 0px;
+    left: -30px;
+    
+}
+
+
+
+
