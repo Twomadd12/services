@@ -1,6 +1,6 @@
 let button = document.getElementById('toggleButton')
 let content = document.getElementById('main__content')
-var isContentVisible = false;
+var isContentVisible = true;
 
 button.addEventListener('click', function(){
     if (isContentVisible){
@@ -12,5 +12,6 @@ button.addEventListener('click', function(){
         content.style.display = 'block'
         button.textContent = 'Свернуть'
         isContentVisible = true;
+        
     }
 });

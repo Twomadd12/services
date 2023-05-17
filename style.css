@@ -126,15 +126,13 @@ html {
   top: 18px;
   left: 60px;
   border: none;
-   
-  
 }
-button img{
-    position: absolute;
-    top: 0px;
-    left: -30px;
-    
+.showAll button::before{
+  content: url(/img/expand.svg);
+  position: absolute;
+  left: -29px;
 }
+
 
 
 
