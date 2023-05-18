@@ -4,12 +4,18 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+/>
     <link rel="stylesheet" href="style.css" />
+    
+    
     <title>JS in Browser</title>
   </head>
   <body>
     
-       <div class="main" id="main__content">
+       <div class="main" >
         <header class="header" >
             <div class="header__text">РЕМОНТ ТЕХНИКИ РАЗЛИЧНЫХ БРЕНДОВ</div>
           </header>
@@ -39,6 +45,14 @@
                           <img src="img/go.svg" alt="">
                       </div>
                   </div>
+                  <div class="brand">
+                    <div class="brand__name-sonic">
+                        <img src="img/viewSonic.svg" alt="Леново">
+                    </div>
+                    <div class="brand__arrow-sonic">
+                        <img src="img/go.svg" alt="">
+                    </div>
+                </div>
               </div>
               <div class="content">
                   <div class="brand">
@@ -65,7 +79,41 @@
                           <img src="img/go.svg" alt="">
                       </div>
                   </div>
+                  <div class="brand">
+                    <div class="brand__name-sony">
+                        <img src="img/sony.svg" alt="Леново">
+                    </div>
+                    <div class="brand__arrow-sony">
+                        <img src="img/go.svg" alt="">
+                    </div>
+                </div>
+                
               </div>
+              <div class="content__other" id="content__other">
+                <div class="brand">
+                    <div class="brand__name-lenovo">
+                        <img src="img/lenovo.svg" alt="Леново">
+                    </div>
+                    <div class="brand__arrow-lenovo">
+                        <img src="img/go.svg" alt="">
+                    </div>
+                </div>
+                <div class="brand__samsung">
+                    <div class="brand__name-samsung">
+                        <img src="img/samsung.svg" alt="Леново">
+                    </div>
+                    <div class="brand__arrow-samsung">
+                        <img src="img/go.svg" alt="">
+                    </div>
+                </div>
+                <div class="brand__apple">
+                    <div class="brand__name-apple">
+                        <img src="img/apple.svg" alt="Леново">
+                    </div>
+                    <div class="brand__arrow-apple">
+                        <img src="img/go.svg" alt="">
+                    </div>
+                </div>
            
               
               
@@ -74,15 +122,103 @@
           <div class="showAll">
             <button id="toggleButton">
                
-                <span>Свернуть</span> 
+                <span>Показать все</span> 
             </button>
-            
-            
-            
-            
-        </div>
+          </div>
           
+          
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="brand">
+                        <div class="brand__name-lenovo">
+                            <img src="img/lenovo.svg" alt="Леново">
+                        </div>
+                        <div class="brand__arrow-lenovo">
+                            <img src="img/go.svg" alt="">
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="brand">
+                        <div class="brand__name-samsung">
+                            <img src="img/samsung.svg" alt="Леново">
+                        </div>
+                        <div class="brand__arrow-samsung">
+                            <img src="img/go.svg" alt="">
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="brand">
+                        <div class="brand__name-apple">
+                            <img src="img/apple.svg" alt="Леново">
+                        </div>
+                        <div class="brand__arrow-apple">
+                            <img src="img/go.svg" alt="">
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="brand">
+                        <div class="brand__name-sonic">
+                            <img src="img/viewSonic.svg" alt="Леново">
+                        </div>
+                        <div class="brand__arrow-sonic">
+                            <img src="img/go.svg" alt="">
+                        </div>
+                  </div>
+                  <div class="swiper-slide"><div class="brand">
+                    <div class="brand__name-bosch">
+                        <img src="img/Bosch.svg" alt="Леново">
+                    </div>
+                    <div class="brand__arrow-bosch">
+                        <img src="img/go.svg" alt="">
+                    </div>
+                </div></div>
+                  <div class="swiper-slide">
+                    <div class="brand">
+                        <div class="brand__name-hp">
+                            <img src="img/hp.svg" alt="Леново">
+                        </div>
+                        <div class="brand__arrow-hp">
+                            <img src="img/go.svg" alt="">
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="brand">
+                        <div class="brand__name-acer">
+                            <img src="img/acer.svg" alt="Леново">
+                        </div>
+                        <div class="brand__arrow-acer">
+                            <img src="img/go.svg" alt="">
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide"><div class="brand">
+                    <div class="brand__name-sony">
+                        <img src="img/sony.svg" alt="Леново">
+                    </div>
+                    <div class="brand__arrow-sony">
+                        <img src="img/go.svg" alt="">
+                    </div>
+                </div></div>
+                  
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+          
+          
+          
+            
+            
+        
+              
+        
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
           <script src="script.js"></script>
+          
    
     
   </body>

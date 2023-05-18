@@ -1,6 +1,6 @@
 let button = document.getElementById('toggleButton')
-let content = document.getElementById('main__content')
-var isContentVisible = true;
+let content = document.getElementById('content__other')
+let isContentVisible = false;
 
 button.addEventListener('click', function(){
     if (isContentVisible){
@@ -15,3 +15,10 @@ button.addEventListener('click', function(){
         
     }
 });
+
+var swiper = new Swiper('.swiper-container', {
+    pagination: {
+      el: '.swiper-pagination',
+    },
+  });
+
