@@ -207,7 +207,7 @@ html {
 .swiper-container, .swiper-pagination{
   display: none;
 }
-@media (max-width: 490px){
+@media (max-width: 499px){
   *{
     margin: 0;
     padding: 0;
