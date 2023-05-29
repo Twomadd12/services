@@ -178,11 +178,15 @@ html {
   left: 60px;
   border: none;
 }
-.showAll button::before{
-  content: url(img/expand.svg);
+.buttonImg{
   position: absolute;
-  left: -29px;
+  top: 17px;
 }
+.rotate-180 {
+  transform: rotate(180deg);
+}
+
+
 
 @media (max-width: 1068px){
   .brand:last-child{
